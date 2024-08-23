@@ -2,9 +2,8 @@
   "version": 2,
   "public": true,
   "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "styles/global.css", "use": "@vercel/static" },
+    { "src": "styles/global.css", "use": "@vercel/static" }
   ]
 }
