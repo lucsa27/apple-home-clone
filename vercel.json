@@ -5,6 +5,6 @@
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "styles/global.css", "use": "@vercel/static" },
     { "src": "styles/reset.css", "use": "@vercel/static" },
-    { "src": "public/assets", "use": "@vercel/static" }
+    { "src": "public/**/*", "use": "@vercel/static" }
   ]
 }
